@@ -19,6 +19,7 @@ chroma_db/
 *.csv
 *.pdf
 *.txt
+!requirements.txt
 *.json
 
 # OS specific files

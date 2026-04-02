@@ -1,0 +1,10 @@
+langchain
+langchain-community
+chromadb>=0.5.0
+streamlit
+arize-phoenix
+openinference-instrumentation-langchain
+sentence-transformers
+pytest
+pypdf
+langchain-text-splitters
