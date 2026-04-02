@@ -41,3 +41,18 @@ streamlit run src/bot.py
 ```
 
 *Note: You must have an active local inference server (like LM Studio) running on port 1234.*
+
+## 🐳 Run via Docker
+
+Because this project is heavily configured for enterprise portability, you can deploy it instantly on any system using Docker.
+
+1. **Build the Image:**
+```bash
+docker build -t local-rag .
+```
+
+2. **Run the Container:**
+```bash
+docker run -p 8501:8501 -p 6006:6006 local-rag
+```
+*(This forwards both the Streamlit UI on port `8501` and the Arize Phoenix telemetry dashboard on `6006`).*
