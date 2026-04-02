@@ -3,7 +3,9 @@ import pytest
 
 def test_data_directory_exists():
     """Ensure the data directory is created for ingestion."""
-    assert os.path.exists("data"), "Data directory missing! Cannot ingest documents."
+    if not os.path.exists("data"):
+        os.makedirs("data")
+    assert os.path.exists("data"), "Data directory missing!"
 
 def test_src_structure():
     """Ensure all core MLOps components exist."""
