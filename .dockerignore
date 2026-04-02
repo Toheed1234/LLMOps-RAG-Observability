@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and Vector DBs (Should not be frozen into the docker image)
+data/
+chroma_db/
+*.pdf
+*.txt
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class

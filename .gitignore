@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Project Data & Databases
+# SAFETY RULE: Never push your target data, PII, or vector DBs to GitHub!
+data/
+chroma_db/
+*.sqlite3
+*.db
+*.csv
+*.pdf
+*.txt
+*.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
