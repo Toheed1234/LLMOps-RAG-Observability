@@ -6,11 +6,11 @@ An enterprise-grade, privacy-focused Retrieval-Augmented Generation (RAG) system
 
 ### 1. Robust Prompt Guardrails
 The LangChain system prompts are specifically tuned to absolutely prevent hallucination and mitigate prompt injection attacks (like jailbreaks) while gracefully refusing off-topic requests.
-![Streamlit UI](assets/ui_screenshot.png)
+![Streamlit UI](assets/local%20rag%201.png)
 
 ### 2. Deep Observability
 Configured with **Arize Phoenix** to monitor OpenTelemetry traces, evaluate system latency (TTFT), and track token usage for production-level MLOps readiness.
-![Phoenix Dashboard](assets/phoenix_dashboard.png)
+![Phoenix Dashboard](assets/local%20rag%202.png)
 
 ## 🏗️ Technical Architecture
 - **Inference Engine:** LM Studio (Running massive LLMs entirely locally via llama.cpp bounds)
